@@ -39,3 +39,32 @@ nav {
 				opacity: 1;
 			}
 
+header {
+	height: 600px;
+	overflow: hidden;
+	background: url('../img/fond_test.jpg');
+	background-position: center;
+	position: relative;
+}
+
+	header #grey-mask {
+		position: absolute;
+		height: 100%; width: 100%;
+		z-index: 1;
+
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	header .main-title {
+		width: 100%;
+		color: white;
+		text-decoration: underline;
+		opacity: 0;
+		z-index: 2;
+
+		transition: opacity 3s;
+	}
+
+	header .main-title.charged {
+		opacity: 1;
+	}
