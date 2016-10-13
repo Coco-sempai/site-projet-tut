@@ -17,6 +17,10 @@ nav {
 		position: relative;
 	}
 
+		nav ul li.active, nav ul a:hover {
+			background-color: transparent;
+		}
+
 		nav ul li a {
 			font-size: 18px;
 		}
@@ -28,7 +32,7 @@ nav {
 			width: 0; height: 3px;
 			opacity: 0;
 
-			background-color: red;
+			background-color: #2e7d32 ;
 
 			transition: width 0.5s, left 0.5s, opacity 0.3s;
 		}
@@ -42,8 +46,8 @@ nav {
 header {
 	height: 600px;
 	overflow: hidden;
-	background: url('../img/fond_test.jpg');
-	background-position: center;
+	background: url('../img/cybersecurity.jpg');
+	background-position: bottom;
 	position: relative;
 }
 
