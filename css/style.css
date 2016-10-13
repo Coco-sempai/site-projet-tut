@@ -1,3 +1,41 @@
 * {
   box-sizing: border-box;
 }
+
+nav {
+	height: 100px;
+	line-height: 100px;
+
+	text-transform: uppercase;
+}
+
+	nav .nav-wrapper {
+		margin: 0 10% 0 10%;
+	}
+
+	nav ul li {
+		position: relative;
+	}
+
+		nav ul li a {
+			font-size: 18px;
+		}
+
+		nav ul li .colorbar {
+			position: absolute;
+			left: 50%; top: 66px;
+
+			width: 0; height: 3px;
+			opacity: 0;
+
+			background-color: red;
+
+			transition: width 0.5s, left 0.5s, opacity 0.3s;
+		}
+
+			nav ul li:hover .colorbar, nav ul li.active .colorbar {
+				width: 50%;
+				left: 25%;
+				opacity: 1;
+			}
+

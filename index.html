@@ -3,19 +3,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+
 		<title>Projet tuteuré</title>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Framework Materialize -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+		<!-- Feuille de style perso -->
 		<link rel="stylesheet" href="css/style.css">
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-		<!-- script Bootstrap -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- Script Materialize -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 	</head>
 
 	<body>
-		Hello World from Windows 10
+		<nav class="black">
+    		<div class="nav-wrapper">
+    	 		<a href="#!" class="brand-logo">IUT BM</a>
+      			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      			
+      			<ul class="right hide-on-med-and-down">
+        			<li class="active"><a href="sass.html">Sujet</a><div class="colorbar"></div></li>
+        			<li><a href="badges.html">Membres</a><div class="colorbar"></div></li>
+        			<li><a href="collapsible.html">Infographie</a><div class="colorbar"></div></li>
+        			<li><a href="mobile.html">Contact</a><div class="colorbar"></div></li>
+      			</ul>
+      			
+      			<ul class="side-nav" id="mobile-demo">
+        			<li><a href="sass.html">Sass</a></li>
+        			<li><a href="badges.html">Components</a></li>
+        			<li><a href="collapsible.html">Javascript</a></li>
+        			<li><a href="mobile.html">Mobile</a></li>
+      			</ul>
+    		</div>
+  		</nav>
 	</body>
 </html>
