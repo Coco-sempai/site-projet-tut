@@ -78,7 +78,7 @@
 	 */
 	function Typist(element, opts) {
 		$.extend(this, {
-			speed: 10, // characters per second
+			speed: 50, // characters per second
 			text: '',
 			cursor: true,
 			blinkSpeed: 2, // blink per second
