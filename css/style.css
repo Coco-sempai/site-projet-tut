@@ -9,6 +9,10 @@ nav {
 	text-transform: uppercase;
 }
 
+	nav .brand-logo img {
+		height: 94px;
+	}
+
 	nav .nav-wrapper {
 		margin: 0 10% 0 10%;
 	}
@@ -72,3 +76,7 @@ header {
 	header .main-title.charged {
 		opacity: 1;
 	}
+
+footer {
+	padding: 0 15%;
+}
