@@ -10,7 +10,8 @@ nav {
 }
 
 	nav .brand-logo img {
-		height: 94px;
+		height: 80px;
+		margin: 10px 0;
 	}
 
 	nav .nav-wrapper {
@@ -87,4 +88,8 @@ main {
 
 footer {
 	padding: 0 15%;
+}
+footer :hover{
+	color:#0DAFE0;
+
 }
