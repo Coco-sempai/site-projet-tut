@@ -5,6 +5,7 @@
 	font-family: 'Lato', sans-serif;
 }
 
+
 nav {
 	height: 100px;
 	line-height: 100px;
@@ -71,8 +72,9 @@ header {
 
 	header .main-title {
 		width: 100%;
+		font-size: 600%;
 		color: white;
-		text-decoration: underline;
+		text-decoration: none;
 		opacity: 1;
 		z-index: 2;
 
@@ -97,4 +99,24 @@ footer {
 footer :hover{
 	color:#0DAFE0;
 
+}
+.animated path {
+	fill: none;
+	stroke: #333;
+	stroke-width: 4;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-dasharray: 500;
+	stroke-dashoffset: 500;
+
+}
+
+.animated path {
+	animation: dash 520ms cubic-bezier(.63,.25,.25,.9) forwards;
+}
+
+@keyframes dash {
+	to {
+		stroke-dashoffset: 100;
+	}
 }
