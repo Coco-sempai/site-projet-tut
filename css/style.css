@@ -85,12 +85,19 @@ header {
 		opacity: 1;
 	}
 
-main {
+	
 
+main {
+	height: 580px;
 }
 
 	main .premier-paragraphe {
 		width: 50%;
+	}
+
+	main .twitter-timeline{
+		position: absolute;
+		float: right;
 	}
 
 footer {
