@@ -66,6 +66,7 @@ header {
 		position: absolute;
 		height: 100%; width: 100%;
 		z-index: 1;
+		top: 0;
 
 		background-color: rgba(0, 0, 0, 0.5);
 	}
@@ -77,6 +78,8 @@ header {
 		text-decoration: none;
 		opacity: 1;
 		z-index: 2;
+		position: absolute;
+		top: 15%;
 
 		transition: opacity 3s;
 	}
@@ -109,7 +112,7 @@ footer :hover{
 }
 .animated path {
 	fill: none;
-	stroke: #333;
+	stroke: #FFF;
 	stroke-width: 4;
 	stroke-linecap: round;
 	stroke-linejoin: round;
@@ -126,4 +129,17 @@ footer :hover{
 	to {
 		stroke-dashoffset: 100;
 	}
+}
+
+.animated {
+	position: absolute;
+	top: 65%; left: 53%;
+}
+
+svg {
+	opacity: 0;
+}
+
+svg.animated {
+	opacity: 1;
 }
