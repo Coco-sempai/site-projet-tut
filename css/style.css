@@ -308,8 +308,8 @@ svg.animated {
 
 .buttonValider{
 	background-color: #303030;
-	color: grey;
-	border: 1px solid grey;
+	color: #D1D1D1;
+	border: 1px solid #D1D1D1;
 	float:right;
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
