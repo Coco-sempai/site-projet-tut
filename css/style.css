@@ -267,29 +267,48 @@ svg.animated {
 }
 
 /* Contact */
-
+.contactBackground{
+	background-color: #303030;
+}
+.contactUs{
+	margin-top: 100px;
+	margin-left: 200px;
+	width: 250px;
+	height: 400px;
+	position: absolute;
+	color:white;
+}
 /* Set a size for our map container, the Google Map will take up 100% of this container */
 #map {
 	width: 200px;
 	height: 150px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
 }
-#contactUs{
+#contact{
 	font-weight: bold;
 	font-size: 25px;
-	margin-left: 100px;
-	margin-top: 100px;
+	
 }
 #infos{
 	font-size: 18px;
 	font-weight: normal;
-	margin-left: 100px;
+	margin-left: 10px;
+	color:grey;
 
 }
-#formulaireContact{
-	position: absolute;
-	float: left;
-	width: 400px;
-	height: 300px;
+.formulaireContact{
+	color:white;
+	float: right;
+	width: 600px;
+	height: 500px;
+	margin-right: 200px;
+	margin-top: 100px;
+}
+
+.buttonValider{
+	margin-top: 10px;
+	color:black;
+	float:right;
 }
 
