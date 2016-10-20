@@ -307,8 +307,15 @@ svg.animated {
 }
 
 .buttonValider{
-	margin-top: 10px;
-	color:black;
+	background-color: #303030;
+	color: white;
+	border: 1px solid white;
 	float:right;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.buttonValider:hover {
+	background-color: white; 
+	color: #303030;
 }
 
