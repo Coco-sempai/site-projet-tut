@@ -25,7 +25,45 @@
 		<!-- Script perso -->
 		<script src="js/script.js"></script>
 
+<script type="text/javascript">
+  function surligne(champ, erreur)
+    {
+       if(erreur)
+          champ.style.backgroundColor = "#fba";
+       else
+          champ.style.backgroundColor = "";
+    }
+function verifChamp(champ)
+    {
+       if(champ.value.length == 0)
+       {
+          surligne(champ, true);
+          return false;
+       }
+       else
+       {
+          surligne(champ, false);
+          return true;
+       }
+    }
 
+    function verifForm(f)
+      {
+         var nomOk = verifChamp(f.nom);
+         var mailOk = verifChamp(f.email);
+         var objectOk = verifChamp(f.objet);
+         var messageOk = verifChamp(f.message);
+         
+         if(nomOk && mailOk && objetOk && messageOk)
+            return true;
+         else
+         {
+            alert("Veuillez remplir correctement tous les champs");
+            return false;
+         }
+      }
+
+</script>
     <!-- Google Maps -->
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK1mestDybATZdIrU4DPqmU3dsqYBupaQ"></script>
 
@@ -107,18 +145,21 @@
         	<div id="infos"> projet.iutbm@gmail.com </div>
           <div id="map"></div>
         </div>
-        <form method="contact" action="traitement.php">
-          <p>
-              <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10" />
-              </br>
-              <input type="text" name="email" id="email" placeholder="Email" size="30" maxlength="30" />
-              </br>
-              <input type="text" name="email" id="objet" placeholder="Object" size="30" maxlength="30" />
-              </br>
-              <input type="text" name="message" id="message" placeholder="Message" size="30" maxlength="300" />
-              <button type="submit">Envoyer</button> 
-          </p>
-        </form>
+
+        <div id="formulaireContact">
+          <form method="contact" action="traitement.php" onsubmit="return verifForm(this)">
+            <p>
+                <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10" onblur="verifChamp(this)"/>
+                </br>
+                <input type="text" name="email" id="email" placeholder="Email" size="30" maxlength="30" />
+                </br>
+                <input type="text" name="email" id="objet" placeholder="Object" size="30" maxlength="30" />
+                </br>
+                <input type="text" name="message" id="message" placeholder="Message" size="30" maxlength="300"/>
+                <button type="submit">Envoyer</button> 
+            </p>
+          </form>
+        </div>
 
       </main>
 

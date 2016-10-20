@@ -286,5 +286,10 @@ svg.animated {
 	margin-left: 100px;
 
 }
-
+#formulaireContact{
+	position: absolute;
+	float: left;
+	width: 400px;
+	height: 300px;
+}
 
