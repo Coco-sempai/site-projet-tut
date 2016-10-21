@@ -154,34 +154,68 @@
   		
 
       <main class="contactBackground">
-
-        <div class="contactUs">
-        	<div id="contact"> NOUS CONTACTER : </div>
-        	<div id="infos"> projet.iutbm@gmail.com<br/>
-                IUT Belfort-Montbeliard:<br/>
-                19 Avenue du Maréchal Juin<br/>
-                90000 Belfort
+        <div class="row">
+          <div class="col l5">
+            <div class="contactUs">
+              <div id="contact"> NOUS CONTACTER : </div>
+              <div id="infos"> projet.iutbm@gmail.com<br/>
+                    IUT Belfort-Montbeliard:<br/>
+                    19 Avenue du Maréchal Juin<br/>
+                    90000 Belfort
+                </div>
+              <div id="map"><div class="google-maps"></div></div>
             </div>
-          <div id="map"><div class="google-maps"></div></div>
+          </div>
+            
+
+          <div class="col l7">
+            <div class="formulaireContact">
+              <form method="contact" action="traitement.php" onsubmit="return verifForm(this)">
+                <p>
+                    <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10" style="padding-left: 8px;" onblur="verifChamp(this)"/>
+                    </br>
+                    <input type="email" name="email" id="email" placeholder="Email" size="30" maxlength="30" style="padding-left: 8px;" onblur="verifMail(this)"/>
+                    </br>
+                    <input type="text" name="object" id="objet" placeholder="Objet" size="30" maxlength="30" style="padding-left: 8px;"onblur="verifChamp(this)"/>
+                    </br>
+                    <textarea name="message" id="message" placeholder="Message"  onblur="verifChamp(this)" style="height: 150px; padding-left: 8px;padding-top: 8px "></textarea>
+                    </br>
+                    </br>
+                    <button type="submit" class="buttonValider">Envoyer</button> 
+                </p>
+              </form>
+            </div>
+          </div>
         </div>
 
-        <div class="formulaireContact">
-          <form method="contact" action="traitement.php" onsubmit="return verifForm(this)">
-            <p>
-                <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10" style="padding-left: 8px;" onblur="verifChamp(this)"/>
-                </br>
-                <input type="email" name="email" id="email" placeholder="Email" size="30" maxlength="30" style="padding-left: 8px;" onblur="verifMail(this)"/>
-                </br>
-                <input type="text" name="object" id="objet" placeholder="Objet" size="30" maxlength="30" style="padding-left: 8px;"onblur="verifChamp(this)"/>
-                </br>
-                <textarea name="message" id="message" placeholder="Message"  onblur="verifChamp(this)" style="height: 150px; padding-left: 8px;padding-top: 8px "></textarea>
-                </br>
-                </br>
-                <button type="submit" class="buttonValider">Envoyer</button> 
-            </p>
-          </form>
-        </div>
+        <!-- <div class="row">
+          <div class="contactUs col l5">
+          	<div id="contact"> NOUS CONTACTER : </div>
+          	<div id="infos"> projet.iutbm@gmail.com<br/>
+                  IUT Belfort-Montbeliard:<br/>
+                  19 Avenue du Maréchal Juin<br/>
+                  90000 Belfort
+              </div>
+            <div id="map"><div class="google-maps"></div></div>
+          </div>
 
+          <div class="formulaireContact col l5">
+            <form method="contact" action="traitement.php" onsubmit="return verifForm(this)">
+              <p>
+                  <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10" style="padding-left: 8px;" onblur="verifChamp(this)"/>
+                  </br>
+                  <input type="email" name="email" id="email" placeholder="Email" size="30" maxlength="30" style="padding-left: 8px;" onblur="verifMail(this)"/>
+                  </br>
+                  <input type="text" name="object" id="objet" placeholder="Objet" size="30" maxlength="30" style="padding-left: 8px;"onblur="verifChamp(this)"/>
+                  </br>
+                  <textarea name="message" id="message" placeholder="Message"  onblur="verifChamp(this)" style="height: 150px; padding-left: 8px;padding-top: 8px "></textarea>
+                  </br>
+                  </br>
+                  <button type="submit" class="buttonValider">Envoyer</button> 
+              </p>
+            </form>
+          </div>
+        </div> -->
       </main>
 
   		<footer class="page-footer grey darken-4">
