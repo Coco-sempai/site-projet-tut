@@ -329,3 +329,13 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 	background:none !important;
 }
 
+
+a.contact{
+	color: grey;
+}
+
+a.contact:hover{
+	color: #0DAFE0;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
