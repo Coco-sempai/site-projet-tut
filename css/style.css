@@ -5,6 +5,12 @@
 	font-family: 'Lato', sans-serif;
 }
 
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 
 nav {
 	height: 100px;
@@ -91,7 +97,7 @@ header {
 	
 
 main {
-	height: 580px;
+	flex: 1 0 auto;
 }
 
 	main .premier-paragraphe {
@@ -134,7 +140,7 @@ footer :hover{
 
 .animated {
 	position: absolute;
-	top: 65%; left: 53%;
+	top: 50%; left: 53%;
 }
 
 svg {
@@ -338,4 +344,25 @@ a.contact:hover{
 	color: #0DAFE0;
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
+}
+
+.members-photo img {
+	border-radius: 50%;
+	width: 50%;
+	position: relative;
+	margin-top: 10%; margin-bottom: 10%;
+}
+
+.row-grey {
+	background-color: #303030;
+}
+
+.row-grey img {
+	right: 5%;
+	border: 5px solid white;
+}
+
+.row-white img {
+	left: 50%;
+	border: 5px solid #303030;
 }
