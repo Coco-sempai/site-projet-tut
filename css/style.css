@@ -357,24 +357,39 @@ a.contact:hover{
 	background-color: #303030;
 }
 
+
+
 .row-grey img {
 	right: 5%;
 	border: 5px solid white;
 	-webkit-animation-name: clignote;
-	-webkit-animation-duration: 1s;
+	-webkit-animation-duration: 3s;
 	-webkit-animation-iteration-count:infinite;
+}
+
+.row-grey img:hover {
+	border: 5px solid #0DAFE0;
+	transition-duration: 0.4s;
+
 }
 
 .row-white img {
 	left: 50%;
 	border: 5px solid #303030;
 	-webkit-animation-name: clignote;
-	-webkit-animation-duration: 1s;
+	-webkit-animation-duration: 3s;
 	-webkit-animation-iteration-count:infinite;
 }
 
+.row-white img:hover {
+	border: 5px solid #0DAFE0;
+	transition-duration: 0.4s;
+
+}
+
+
 @-webkit-keyframes clignote {
-	0%{box-shadow:0px 0px 20px #0DAFE0;}
+	0%{box-shadow:0px 0px 30px #0DAFE0;}
 	50%{box-shadow:0px 0px 0px #0DAFE0;}
-	100%{box-shadow:0px 0px 20px #0DAFE0;}
+	100%{box-shadow:0px 0px 30px #0DAFE0;}
 }
