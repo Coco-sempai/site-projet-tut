@@ -360,9 +360,21 @@ a.contact:hover{
 .row-grey img {
 	right: 5%;
 	border: 5px solid white;
+	-webkit-animation-name: clignote;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count:infinite;
 }
 
 .row-white img {
 	left: 50%;
 	border: 5px solid #303030;
+	-webkit-animation-name: clignote;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes clignote {
+	0%{box-shadow:0px 0px 20px #0DAFE0;}
+	50%{box-shadow:0px 0px 0px #0DAFE0;}
+	100%{box-shadow:0px 0px 20px #0DAFE0;}
 }
