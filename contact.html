@@ -33,7 +33,7 @@
            else
               champ.style.border = "";
         }
-    function verifChamp(champ)
+      function verifChamp(champ)
         {
            if(champ.value.length == 0)
            {
@@ -93,9 +93,9 @@
             // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
             var mapOptions = {
               disableDefaultUI: true,
-              draggable: false,
+              draggable: true,
               disableDoubleClickZoom: true,
-              scrollwheel: false,
+              scrollwheel: true,
 
               // How zoomed in you want the map to start at (always required)
               zoom: 15,

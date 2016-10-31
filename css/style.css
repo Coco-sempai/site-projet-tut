@@ -283,8 +283,8 @@ svg.animated {
 }
 /* Set a size for our map container, the Google Map will take up 100% of this container */
 #map {
-	width: 400px;
-	height: 250px;
+	width: 300px;
+	height: 200px;
 	margin-top: 20px;
 	margin-left: 10px;
 }
