@@ -124,6 +124,18 @@
             });
           }
         </script>
+
+
+         <!-- Alerte Mail envoyé -->
+        <script type="text/javascript">
+          var url = window.location.search;
+          if ((url.substring(url.lastIndexOf("=")+1)) == "true"){
+            alert("Le message a été envoyé, merci !")
+          }
+          if ((url.substring(url.lastIndexOf("=")+1)) == "false"){
+             alert("Désolé, le message n'a pas pu être envoyé")
+          }
+        </script>
     
 	</head>
 
@@ -170,13 +182,13 @@
 
           <div class="col l7">
             <div class="formulaireContact">
-              <form method="contact" action="traitement.php" onsubmit="return verifForm(this)">
+              <form method="contact" action="email.php" onsubmit="return verifForm(this)">
                 <p>
                     <input type="text" name="nom" id="nom" placeholder="Nom" size="30" maxlength="10" style="padding-left: 8px;" onblur="verifChamp(this)"/>
                     </br>
                     <input type="email" name="email" id="email" placeholder="Email" size="30" maxlength="30" style="padding-left: 8px;" onblur="verifMail(this)"/>
                     </br>
-                    <input type="text" name="object" id="objet" placeholder="Objet" size="30" maxlength="30" style="padding-left: 8px;"onblur="verifChamp(this)"/>
+                    <input type="text" name="objet" id="objet" placeholder="Objet" size="30" maxlength="30" style="padding-left: 8px;"onblur="verifChamp(this)"/>
                     </br>
                     <textarea class="materialize-textarea" name="message" id="message" placeholder="Message"  onblur="verifChamp(this)" style="height: 130px; padding-left: 8px;padding-top: 8px "></textarea>
                     </br>
