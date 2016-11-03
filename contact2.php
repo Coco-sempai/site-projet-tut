@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 		<!-- Framework Materialize -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
@@ -59,14 +60,7 @@
              else
              {
                 alert("Veuillez remplir correctement tous les champs");
-                 <?php
-                 $timestart=microtime(true);
-                $timestop=microtime(true);
-                 while ($timestop - $timestart < 2){
-                 $verif = 1;
-                 $timestop=microtime(true);
-             }
-                 ?>
+                $('.buttonValider').addClass('animated bounce');
              return false;
              }
           }
@@ -213,10 +207,8 @@
                 <label for="message">Message</label>
               </div>
           </div>
-          <button type="submit" class="buttonValider"><?php
-           while $verif=1 {
-           echo '<bounce>'
-              }?>
+          <button type="submit" class="buttonValider">
+            
               Envoyer
 
           </button>

@@ -316,6 +316,7 @@ svg.animated {
 	.input-field {
 		margin-top: 0px !important;
 	}
+
    /* label focus color */
    .input-field input[type=text]:focus + label  {
      color: #0DAFE0 !important;
@@ -362,6 +363,7 @@ svg.animated {
 .buttonValider:focus {
 	background-color: #303030;
 }
+
 
 /* Enlever les logos google */
 a[href^="http://maps.google.com/maps"]{display:none !important}
