@@ -1,3 +1,8 @@
+<?php
+header('content-type: text/css');//Déclare la page en tant que feuille de style
+//Votre code php
+?>
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 * {

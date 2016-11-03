@@ -60,7 +60,12 @@
              {
                 alert("Veuillez remplir correctement tous les champs");
                  <?php
-                 $verif = 0;
+                 $timestart=microtime(true);
+                $timestop=microtime(true);
+                 while ($timestop - $timestart < 2){
+                 $verif = 1;
+                 $timestop=microtime(true);
+             }
                  ?>
              return false;
              }
@@ -208,7 +213,13 @@
                 <label for="message">Message</label>
               </div>
           </div>
-          <button type="submit" class="buttonValider">Envoyer</button> 
+          <button type="submit" class="buttonValider"><?php
+           while $verif=1 {
+           echo '<bounce>'
+              }?>
+              Envoyer
+
+          </button>
         </form>
     </div>
   </div>
