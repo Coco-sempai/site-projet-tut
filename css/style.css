@@ -354,6 +354,9 @@ svg.animated {
 	border: 1px solid  #0DAFE0;
 
 }
+.buttonValider:focus {
+	background-color: #303030;
+}
 
 /* Enlever les logos google */
 a[href^="http://maps.google.com/maps"]{display:none !important}
