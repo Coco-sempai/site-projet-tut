@@ -1,8 +1,3 @@
-<?php
-header('content-type: text/css');//Déclare la page en tant que feuille de style
-//Votre code php
-?>
-
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 * {
@@ -24,6 +19,16 @@ nav {
 	text-transform: uppercase;
 }
 
+	nav .button-collapse {
+		height: 100px !important;
+	}
+
+	nav .button-collapse i {
+		height: 100px !important;
+		line-height: 100px !important;
+		font-size: 5rem !important;
+	}
+
 	nav .brand-logo img {
 		height: 80px;
 		margin: 10px 0;
@@ -33,19 +38,19 @@ nav {
 		margin: 0 10% 0 10%;
 	}
 
-	nav ul li {
+	nav ul:not(.side-nav) li {
 		position: relative;
 	}
 
-		nav ul li.active, nav ul a:hover {
+		nav ul:not(.side-nav) li.active, nav ul:not(.side-nav) a:hover {
 			background-color: transparent;
 		}
 
-		nav ul li a {
+		nav ul:not(.side-nav) li a {
 			font-size: 18px;
 		}
 
-		nav ul li .colorbar {
+		nav ul:not(.side-nav) li .colorbar {
 			position: absolute;
 			left: 50%; top: 66px;
 
@@ -57,7 +62,7 @@ nav {
 			transition: width 0.5s, left 0.5s, opacity 0.3s;
 		}
 
-			nav ul li:hover .colorbar, nav ul li.active .colorbar {
+			nav ul:not(.side-nav) li:hover .colorbar, nav ul:not(.side-nav) li.active .colorbar {
 				width: 50%;
 				left: 25%;
 				opacity: 1;
