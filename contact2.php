@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Contact</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 		<!-- Framework Materialize -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
@@ -60,7 +60,10 @@
              else
              {
                 alert("Veuillez remplir correctement tous les champs");
-                $('.buttonValider').addClass('animated bounce');
+                $('.buttonValider').addClass('animated shake');
+                $('.buttonValider').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                  $('.buttonValider').removeClass('shake');
+                });
              return false;
              }
           }
@@ -167,7 +170,7 @@
 
       <main class="contactBackground">
         <div class="row">
-          <div class="col l5">
+          <div class="col l6 offset-l1 s12">
             <div class="contactUs">
               <div id="contact"> NOUS CONTACTER : </div>
               <div id="infos"><a class="contact" href="mailto:projet.iutbm@gmail.com">projet.iutbm@gmail.com</a><br/>
@@ -178,43 +181,41 @@
               <div id="map"><div class="google-maps"></div></div>
             </div>
           </div>
+      
+          <div class="formulaireContact col l4 m7 s12">
+            <form class="" action="email.php" onsubmit="return verifForm(this)">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="nom" name="nom" type="text"  size="70" class="validate">
+                  <label for="nom">Nom</label>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" name="email" type="email" class="validate">
+                  <label for="email" data-error="Incorrecte" data-success="Correcte">Email</label>
+                </div>
+              </div>
             
-
-          <div class="row">
-      <div class="formulaireContact">
-          <form class="col s17" action="email.php" onsubmit="return verifForm(this)">
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="nom" name="nom" type="text"  size="70" class="validate">
-                <label for="nom">Nom</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="objet" name="objet" type="text" class="validate">
+                  <label for="objet">Objet</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="email" name="email" type="email" class="validate">
-                <label for="email" data-error="Incorrecte" data-success="Correcte">Email</label>
+            
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="objet" name="objet" type="text" class="validate">
-                <label for="objet">Objet</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <textarea id="message" name="message" class="materialize-textarea"></textarea>
-                <label for="message">Message</label>
-              </div>
+              
+              <button type="submit" class="buttonValider">Envoyer</button>
+            </form>
           </div>
-          <button type="submit" class="buttonValider">
-            
-              Envoyer
-
-          </button>
-        </form>
-    </div>
-  </div>
+        </div>
         <!-- <div class="row">
           <div class="contactUs col l5">
           	<div id="contact"> NOUS CONTACTER : </div>

@@ -278,6 +278,8 @@
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake;
+  border-color: red !important;
+  color: red !important;
 }
 
 @-webkit-keyframes headShake {

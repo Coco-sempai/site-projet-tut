@@ -122,7 +122,7 @@ footer :hover{
 	color:#0DAFE0;
 
 }
-.animated path {
+.animatedDraw path {
 	fill: none;
 	stroke: #FFF;
 	stroke-width: 4;
@@ -133,7 +133,7 @@ footer :hover{
 
 }
 
-.animated path {
+.animatedDraw path {
 	animation: dash 520ms cubic-bezier(.63,.25,.25,.9) forwards;
 }
 
@@ -143,7 +143,7 @@ footer :hover{
 	}
 }
 
-.animated {
+.animatedDraw {
 	position: absolute;
 	top: 50%; left: 53%;
 }
@@ -152,7 +152,7 @@ svg {
 	opacity: 0;
 }
 
-svg.animated {
+svg.animatedDraw {
 	opacity: 1;
 }
 
@@ -283,7 +283,7 @@ svg.animated {
 	background-color: #303030;
 }
 .contactUs{
-	margin-left: 200px; margin-top: 100px;
+	margin-top: 100px;
 	color:white;
 }
 /* Set a size for our map container, the Google Map will take up 100% of this container */
@@ -310,7 +310,6 @@ svg.animated {
 	float: right;
 	width: 600px;
 	height: 500px;
-	margin-right: 200px;
 	margin-top: 100px;
 }
 	.input-field {

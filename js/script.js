@@ -7,6 +7,6 @@ $(document).ready(function() {
 	}, 1500);
 
 	setTimeout(function(){ 
-		$('svg').addClass('animated');
+		$('svg').addClass('animatedDraw');
 	}, 7000);
 });
