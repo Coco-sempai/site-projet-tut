@@ -12,6 +12,7 @@ include('includes/nav.php');
         <div class="row row-white">
           <div class="col l3 members-photo">
             <img src="img/IMG_2221.PNG" alt="">
+            voici Nathan le bg
           </div>
 
           <div class="col l9">
