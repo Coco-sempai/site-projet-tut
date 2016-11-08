@@ -11,6 +11,14 @@ body {
 	flex-direction: column;
 }
 
+.footer-copyright {
+	margin: 0 -15%;
+	min-width: 100%;
+	text-align: center;
+	line-height: normal !important;
+	margin-top: 10px;
+}
+
 
 nav {
 	height: 100px;
@@ -26,7 +34,7 @@ nav {
 	nav .button-collapse i {
 		height: 100px !important;
 		line-height: 100px !important;
-		font-size: 5rem !important;
+		font-size: 3.5rem !important;
 	}
 
 	nav .brand-logo img {
@@ -298,7 +306,7 @@ svg.animatedDraw {
 	margin-top: 20px;
 	margin-left: 10px;
 }
-#contact{
+#contactLink{
 	font-weight: bold;
 	font-size: 25px;
 	
@@ -437,4 +445,38 @@ a.contact:hover{
 	0%{box-shadow:0px 0px 50px #0DAFE0;}
 	50%{box-shadow:0px 0px 10px #0DAFE0;}
 	100%{box-shadow:0px 0px 50px #0DAFE0;}
+}
+
+.tweet .material-icons:first-child {
+	transform: rotateY(180deg);
+}
+
+.tweet {
+	padding: 15px !important;
+	text-align: justify;
+}
+
+.tweet a {
+	color: white;
+	transition: color 0.3s;
+}
+
+.tweet-row a:hover {
+	color: #039be5;
+}
+
+.tweet span {
+	color: grey;
+}
+
+.tweet-row h3 {
+	color: white;
+	margin-top: 0;
+	padding-top: 10px; padding-left: 10px;
+	font-size: 2rem;
+}
+
+.tweet-row {
+	background-color: #303030;
+	margin-bottom: 0;
 }

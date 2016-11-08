@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$(".button-collapse").sideNav();
+	 $('.slider').slider();
 	
 	setTimeout(function(){ 
 		$('.main-title').typist({

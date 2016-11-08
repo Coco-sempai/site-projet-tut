@@ -12,7 +12,7 @@ include('includes/nav.php');
         <div class="row">
           <div class="col l6 offset-l1 s12">
             <div class="contactUs">
-              <div id="contact"> NOUS CONTACTER : </div>
+              <div id="contactLink"> NOUS CONTACTER : </div>
               <div id="infos"><a class="contact" href="mailto:projet.iutbm@gmail.com">projet.iutbm@gmail.com</a><br/>
                     IUT Belfort-Montbeliard:<br/>
                     19 Avenue du Maréchal Juin<br/>
