@@ -37,10 +37,14 @@ nav {
 		font-size: 3.5rem !important;
 	}
 
-	nav .brand-logo img {
-		height: 80px;
-		margin: 10px 0;
+	nav .brand-logo {
+		height: 100px;
 	}
+	
+		nav .brand-logo img {
+			height: 80px;
+			margin: 10px 0;
+		}
 
 	nav .nav-wrapper {
 		margin: 0 10% 0 10%;
