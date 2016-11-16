@@ -410,45 +410,25 @@ a.contact:hover{
 	margin-top: 10%; margin-bottom: 10%;
 }
 
+.row-grey, .row-white {
+ 	padding-top: 20px; padding-bottom: 20px;
+}
+
 .row-grey {
 	background-color: #303030;
 }
 
-
-
-.row-grey img {
-	right: 5%;
-	border: 5px solid white;
-	-webkit-animation-name: clignote;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-iteration-count:infinite;
+.row-grey p {
+	color: white;
 }
 
-.row-grey img:hover {
+.row-grey img, .row-white img {
+	border-radius: 50%;
+}
+
+.row-grey img:hover, .row-white img:hover {
 	border: 5px solid #0DAFE0;
 	transition-duration: 0.4s;
-
-}
-
-.row-white img {
-	left: 50%;
-	border: 5px solid #303030;
-	-webkit-animation-name: clignote;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-iteration-count:infinite;
-}
-
-.row-white img:hover {
-	border: 5px solid #0DAFE0;
-	transition-duration: 0.4s;
-
-}
-
-
-@-webkit-keyframes clignote {
-	0%{box-shadow:0px 0px 50px #0DAFE0;}
-	50%{box-shadow:0px 0px 10px #0DAFE0;}
-	100%{box-shadow:0px 0px 50px #0DAFE0;}
 }
 
 .tweet .material-icons:first-child {
@@ -483,4 +463,34 @@ a.contact:hover{
 .tweet-row {
 	background-color: #303030;
 	margin-bottom: 0;
+}
+
+.col-subject {
+	text-align: center;
+	transition: box-shadow 0.3s;
+}
+
+.col-subject a:hover {
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.col-subject .material-icons {
+	font-size: 3rem;
+	color: #0DAFE0;
+}
+
+.col-subject a {
+	display: block;
+	margin: 0 10%;
+	padding: 10px;
+	height: 300px;
+	color: black;
+}
+
+.col-subject p {
+	font-size: 17px;
+}
+
+.text-justify {
+	text-align: justify;
 }
