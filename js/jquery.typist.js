@@ -246,7 +246,7 @@
 			}
 
 			if ( !this._container ) {
-				this._container = $('<span class="typist-text valign">');
+				this._container = $('<span class="typist-text">');
 				if ( this.typeFrom === 'start' ) {
 					this._element.prepend(this._container);
 				} else {
