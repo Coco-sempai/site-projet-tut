@@ -439,8 +439,9 @@ a.contact:hover{
 }
 
 .row-grey img:hover, .row-white img:hover {
-	border: 5px solid #0DAFE0;
-	transition-duration: 0.4s;
+	border: 3px solid #0DAFE0;
+	transition-duration: 0.1s;
+	box-shadow:0px 0px 20px #0DAFE0;
 }
 
 .tweet .material-icons:first-child {
