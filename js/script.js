@@ -5,13 +5,12 @@ $(document).ready(function() {
 	setTimeout(function(){ 
 		$('.main-title').typist({
 	        speed: 12,
-	        text: 'Le business lucratif des \n failles informatiques'
-	    });
+	        text: 'Le business lucratif des \n failles informatiques',
+	        cursor: false
+	    }).on('end_type.typist', function() {
+        	$('svg').addClass('animatedDraw');
+    	});;
 	}, 1500);
-
-	setTimeout(function(){ 
-		$('svg').addClass('animatedDraw');
-	}, 7000);
 });
 
 function setActive(id) {

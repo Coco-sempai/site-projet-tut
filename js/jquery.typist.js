@@ -123,7 +123,7 @@
 					.remove();
 			}
 
-			this._cursor = $('<span>|</span>')
+			this._cursor = $('<span class="blink-cursor">|</span>')
 				.css(this.cursorStyles)
 				.insertAfter(this._container);
 
@@ -246,7 +246,7 @@
 			}
 
 			if ( !this._container ) {
-				this._container = $('<span>');
+				this._container = $('<span class="typist-text valign">');
 				if ( this.typeFrom === 'start' ) {
 					this._element.prepend(this._container);
 				} else {

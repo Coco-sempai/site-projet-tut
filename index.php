@@ -16,7 +16,7 @@ include('includes/nav.php')
 
 <header class="valign-wrapper center">
   <div id="grey-mask"></div>
-  <h1 class="valign main-title hide-on-small-only">
+  <h1 class="valign main-title hide-on-small-only hide-on-med-and-down">
     <svg width="186px" height="22px" viewBox="-4 0 186 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <path d="M0,4.8768025 C8.69922932,4.8768025 121.382104,2 168.792189,2 C216.202275,2 26.3856446,8.23981271 16.7336426,15.4152269 C9.77598573,19.2017481 98.4125824,15.4152269 139.865845,15.4152269"></path>
     </svg>
@@ -33,7 +33,7 @@ include('includes/nav.php')
       ?>
 
       <div class="col s6 m2 l2 tweet">
-          <a href="https<?php echo $text['1']; ?>" target="_blank">
+          <a <?php echo isset($text['1']) ? "href='https".$text['1']."'" : ''; ?> target="_blank">
             <i class="material-icons">format_quote</i>
             <?php echo $text['0']; ?>
             <i class="material-icons">format_quote</i>
