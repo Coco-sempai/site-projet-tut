@@ -25,7 +25,7 @@ include('includes/nav.php')
 
 <main>
   <div class="row tweet-row">
-    <h3>Derniers tweets de <a href="http://www.twitter.com/TwitterDev">@TwitterDev</a></h3>
+    <h3>Derniers tweets de <a href="http://www.twitter.com/Korben">@Korben</a></h3>
     <?php for($i = 0 ; $i < 6 ; $i++): ?>
       <?php 
       $text = explode('https', $statuses[$i]->text); 
