@@ -32,7 +32,7 @@ include('includes/nav.php');
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Partie technique</h5>
 
-            <p class="light">Découvrez les rouages de notre site Internet.</p>
+            <p class="light">Si la partie technique vous intéresse alors découvrez les rouages de notre site Internet.</p>
           </div>
         </a>
       </div>
