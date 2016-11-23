@@ -12,7 +12,8 @@ include('includes/nav.php');
 	<div class="row">
 		<h1 class="center-align white-text"><strong>Infographie</strong></h1>
 		<div class="col offset-l1">
-			<h2 class="perso-text">Statistiques sur le sujet</h2>
+			<h2 class="perso-text hide-on-small-only">Statistiques sur le sujet</h2>
+			<h2 class="perso-text center-align hide-on-med-and-up">Statistiques sur le sujet</h2>
 		</div>
 	</div>
 
