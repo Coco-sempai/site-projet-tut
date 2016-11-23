@@ -23,10 +23,13 @@ include('includes/nav.php');
 			<small>source : <a href="http://www.it-connect.fr/vulnerabilites-apple-et-linux-les-mauvais-eleves-en-2014/" clas="perso-text">IT-Connect</a></small>
 		</div>
 
-		<div class="col l6 s12 right-align">
+		<div class="col l6 s12">
 			<h3 class=>Nombre de failles répertoriées</h3>
 
-			<p class="infogp">Entre 2011 et 2014, le nombre de failles de sécurités répertoriées a quasiment doublés.<br>
+			<p class="infogp right-align hide-on-small-only">Entre 2011 et 2014, le nombre de failles de sécurités répertoriées a quasiment doublés.<br>
+			Et cette hausse n'est sûrement pas prête de s'arrêter...</p>
+
+			<p class="infogp justify-text hide-on-med-and-up">Entre 2011 et 2014, le nombre de failles de sécurités répertoriées a quasiment doublés.<br>
 			Et cette hausse n'est sûrement pas prête de s'arrêter...</p>
 		</div>
 	</div>
