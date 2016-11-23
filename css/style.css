@@ -507,3 +507,25 @@ a.contact:hover{
 .text-justify {
 	text-align: justify;
 }
+
+textarea {
+	height: 110px !important;
+	min-height: 110px !important;
+}
+
+.perso-text {
+	color: #0DAFE0;
+}
+
+h2.perso-text {
+	font-size: 30px !important;
+}
+
+small {
+	font-size: 85% !important;
+}
+
+.infogp {
+	margin-top: 10px;
+	font-size: 20px;
+}

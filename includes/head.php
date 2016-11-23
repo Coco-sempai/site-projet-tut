@@ -18,6 +18,7 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- Material Icons -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Style perso -->
 		<link rel="stylesheet" href="css/animate.css"> <!-- Animate CSS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.js"></script>
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
