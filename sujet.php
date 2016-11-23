@@ -21,7 +21,7 @@ include('includes/nav.php');
             <h2 class="center brown-text"><i class="material-icons">trending_up</i></h2>
             <h5 class="center">Partie économique et juridique</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">Vous êtes vous déjà demandé combien coûte les failels informatiques dans le monde ? Si oui, alors empressez vous de cliquer ici !</p>
           </div>
         </a>
       </div>
@@ -32,7 +32,7 @@ include('includes/nav.php');
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Partie technique</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">Découvrez les rouages de notre site Internet.</p>
           </div>
         </a>
       </div>
@@ -43,7 +43,7 @@ include('includes/nav.php');
             <h2 class="center brown-text"><i class="material-icons">voicemail</i></h2>
             <h5 class="center">Interview</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Ici, vous pourrez retrouver une synthèse de l'interview que nous avons réalisé avec un expert en sécurité informatique.</p>
           </div>
         </a>
       </div>
