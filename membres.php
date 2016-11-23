@@ -28,7 +28,7 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only">Thomas BICHOT</h5>
           </div>
 
-          <p class="valign">Thomas, 19ans, alias "Chef du groupe". Thomas, lui aussi ancien de l'UTBM, est un très bon coordinateur et à  réussi à gérer correctement ce projet de  premier semestre à l'IUT de Belfort-Montbéliard.
+          <p class="valign">Thomas, 19ans, alias "Chef du groupe". Thomas, ancien de l'UTBM, est un très bon coordinateur et à  réussi à gérer correctement ce projet de  premier semestre à l'IUT de Belfort-Montbéliard.
           Thomas s'interesse tout particulièrement au développement mobile, et travaille sur sa première application IOS: "<em>Near</em>". Celle ci est actuellement en test sur l'<em>App Store</em> d'<em>Apple</em>. Il espère continuer ses études après son DUT.</p>
         </div>
       </div>
@@ -46,7 +46,7 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only right-align">Maxime LUCAS</h5>
           </div>
           
-          <p class="valign">Maxime, 20 ans et toujours aussi <em>Geek</em>. Maxime est un ancien de l'UTBM qui à préféré étudier à l'IUT de Belfort-Montbéliard. <em>Geek</em> dans l'âme, vous pourrez trouver facilement des vidéos de ses parties sur les sites de vidéo les plus réputés. Aujourd'hui, à coté de ses études, il travaille activement sur un projet de site Internet dédié aux jeux-vidéos. Toujours serviable, vous pourrez le retrouver au bar si vous avez besoin d'aide.</p>
+          <p class="valign">Maxime, 20 ans et toujours aussi <em>Geek</em>. Maxime est lui aussi un ancien de l'UTBM qui à préféré étudier à l'IUT de Belfort-Montbéliard. <em>Geek</em> dans l'âme, vous pourrez trouver facilement des vidéos de ses parties sur les sites de vidéo les plus réputés. Aujourd'hui, à coté de ses études, il travaille activement sur un projet de site Internet dédié aux jeux-vidéos. Toujours serviable, vous pourrez le retrouver au bar si vous avez besoin d'aide.</p>
         </div>
       </div>
 
