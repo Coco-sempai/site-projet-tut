@@ -70,7 +70,7 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only">Thomas GARCENOT</h5>
           </div>
 
-          <p class="valign">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum obcaecati suscipit nesciunt voluptates illum at, provident ratione ipsa dolor dignissimos expedita numquam autem ipsum accusantium delectus cumque necessitatibus, esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates, consectetur ipsum nam, magni autem deleniti quam! Cupiditate eum nesciunt numquam. Illum amet sapiente at odit sed, ex rem. Eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laudantium mollitia accusantium. Natus similique libero adipisci magnam, commodi minima at, odit quos, animi id in quam optio soluta modi asperiores.</p>
+          <p class="valign">Titulaire d'un Baccalauréat S, Thomas est un Alsacien de 18 ans (et toutes ses dents). Toujours de bon humeur et toujours près à donner un coup de main, Thomas est l'élément CLEF du groupe.</p>
         </div>
       </div>
     </div>
