@@ -508,6 +508,10 @@ a.contact:hover{
 	text-align: justify;
 }
 
+p.eco{
+	font-size: 15px;
+	margin:10px;
+}
 textarea {
 	height: 110px !important;
 	min-height: 110px !important;
