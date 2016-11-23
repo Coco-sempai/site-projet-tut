@@ -24,12 +24,13 @@ include('includes/nav.php');
 		</div>
 
 		<div class="col l6 s12">
-			<h3 class=>Nombre de failles répertoriées</h3>
+			<h3 class="right-align hide-on-small-only">Nombre de failles répertoriées</h3>
+			<h3 class="center-align hide-on-med-and-up">Nombre de failles répertoriées</h3>
 
 			<p class="infogp right-align hide-on-small-only">Entre 2011 et 2014, le nombre de failles de sécurités répertoriées a quasiment doublés.<br>
 			Et cette hausse n'est sûrement pas prête de s'arrêter...</p>
 
-			<p class="infogp justify-text hide-on-med-and-up">Entre 2011 et 2014, le nombre de failles de sécurités répertoriées a quasiment doublés.<br>
+			<p class="infogp center-align hide-on-med-and-up">Entre 2011 et 2014, le nombre de failles de sécurités répertoriées a quasiment doublés.<br>
 			Et cette hausse n'est sûrement pas prête de s'arrêter...</p>
 		</div>
 	</div>
