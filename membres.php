@@ -28,7 +28,8 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only">Thomas BICHOT</h5>
           </div>
 
-          <p class="valign">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum obcaecati suscipit nesciunt voluptates illum at, provident ratione ipsa dolor dignissimos expedita numquam autem ipsum accusantium delectus cumque necessitatibus, esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates, consectetur ipsum nam, magni autem deleniti quam! Cupiditate eum nesciunt numquam. Illum amet sapiente at odit sed, ex rem. Eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laudantium mollitia accusantium. Natus similique libero adipisci magnam, commodi minima at, odit quos, animi id in quam optio soluta modi asperiores.</p>
+          <p class="valign">Thomas, 19ans, alias "Chef du groupe". Thomas, lui aussi ancien de l'UTBM, est un très bon coordinateur et à plutot bien réussi à gérer ce projet de notre premier semestre à l'IUT de Belfort.
+          Thomas s'interesse tout particulièrement au développement mobile, et travaille sur sa première application "Near". Celle_ci est actuellement en test sur l'App Store.</p>
         </div>
       </div>
     </div>
@@ -45,7 +46,7 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only right-align">Maxime LUCAS</h5>
           </div>
           
-          <p class="valign">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum obcaecati suscipit nesciunt voluptates illum at, provident ratione ipsa dolor dignissimos expedita numquam autem ipsum accusantium delectus cumque necessitatibus, esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates, consectetur ipsum nam, magni autem deleniti quam! Cupiditate eum nesciunt numquam. Illum amet sapiente at odit sed, ex rem. Eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laudantium mollitia accusantium. Natus similique libero adipisci magnam, commodi minima at, odit quos, animi id in quam optio soluta modi asperiores.</p>
+          <p class="valign">Maxime, 20 ans et toujours aussi Geek. Maxime est un ancien de l'UTBM qui à préféré étudier à l'IUT de Belfort. Geek dans l'âme, vous pourrez trouver facilement des vidéos de ses parties sur les sites de vidéo les plus réputés. Aujourd'hui, à coté de ses études, il travaille sur un projet de site Internet dédié aux jeux-vidéos.</p>
         </div>
       </div>
 
@@ -70,7 +71,8 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only">Thomas GARCENOT</h5>
           </div>
 
-          <p class="valign">Titulaire d'un Baccalauréat S, Thomas est un Alsacien de 18 ans (et toutes ses dents). Toujours de bon humeur et toujours près à donner un coup de main, Thomas est l'élément CLEF du groupe.</p>
+          <p class="valign">Titulaire d'un Baccalauréat S, Thomas est un Alsacien de 18 ans (et toutes ses dents). Toujours de bon humeur et toujours prêt à donner un coup de main, il est très facile de travailler avec lui. Il est pluôt perfectionniste et patient mais à la condition que ça l'intéresse.
+          Il espère s'orienter vers des études tournés vers la sécurité après son DUT.</p>
         </div>
       </div>
     </div>
@@ -87,7 +89,7 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only right-align">Corentin DE OLIVEIRA</h5>
           </div>
           
-          <p class="valign">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum obcaecati suscipit nesciunt voluptates illum at, provident ratione ipsa dolor dignissimos expedita numquam autem ipsum accusantium delectus cumque necessitatibus, esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates, consectetur ipsum nam, magni autem deleniti quam! Cupiditate eum nesciunt numquam. Illum amet sapiente at odit sed, ex rem. Eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laudantium mollitia accusantium. Natus similique libero adipisci magnam, commodi minima at, odit quos, animi id in quam optio soluta modi asperiores.</p>
+          <p class="valign">Corentin 21ans, recherche activement coéquipière. Corentin s'est réorienté en informatique après avoir suivi 2ans d'études en STAPS. Sportif, il pratique régulièrement du Tennis avec ses amis.  </p>
         </div>
       </div>
 
@@ -112,7 +114,7 @@ include('includes/nav.php');
             <h5 class="hide-on-small-only">Nathan MERCIER</h5>
           </div>
 
-          <p class="valign">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium quas, fugit nesciunt ratione totam eveniet saepe tempora vel velit iusto earum. Placeat distinctio assumenda est, enim ut nemo pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nostrum obcaecati suscipit nesciunt voluptates illum at, provident ratione ipsa dolor dignissimos expedita numquam autem ipsum accusantium delectus cumque necessitatibus, esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptates, consectetur ipsum nam, magni autem deleniti quam! Cupiditate eum nesciunt numquam. Illum amet sapiente at odit sed, ex rem. Eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laudantium mollitia accusantium. Natus similique libero adipisci magnam, commodi minima at, odit quos, animi id in quam optio soluta modi asperiores.</p>
+          <p class="valign">Nathan, 18 ans, tituaire d'un Baccalauréat STI2D. Nathan est passionné par la magie et passe pas mal de son temps libre à trouver des tours de magie sur Internet. Nathan espère continuer ses études pour devenir Ingénieur Informaticien.</p>
         </div>
       </div>
     </div>
