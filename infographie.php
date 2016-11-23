@@ -11,7 +11,7 @@ include('includes/nav.php');
 <main class="container-fluid">
 	<div class="row">
 		<h1 class="center-align white-text"><strong>Infographie</strong></h1>
-		<div class="col offset-l1">
+		<div class="col l11 offset-l1 s12">
 			<h2 class="perso-text hide-on-small-only">Statistiques sur le sujet</h2>
 			<h2 class="perso-text center-align hide-on-med-and-up">Statistiques sur le sujet</h2>
 		</div>
